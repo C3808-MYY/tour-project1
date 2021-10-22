@@ -19,7 +19,6 @@ jobs:
 
       - name: Install and build
         run:  npm run && npm run build
-
       -name : Deploy
       uses: C8308-MYY/github-pages-deploy-action@4.1.5
         with:
